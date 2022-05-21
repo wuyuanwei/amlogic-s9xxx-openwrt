@@ -16,5 +16,5 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
-echo "src-git passwall https://github.com/OpenWrt-Actions/openwrt-package-lienol.git^427cff3974fd7d4cb08d1a9e3d5248a4f2b582b9" >> feeds.conf.default
-echo "src-git helloworld https://github.com/fw876/helloworld.git^35c48947414783499fcb61884aedd36431f0af68" >> feeds.conf.default
+# echo "src-git passwall https://github.com/OpenWrt-Actions/openwrt-package-lienol.git^427cff3974fd7d4cb08d1a9e3d5248a4f2b582b9" >> feeds.conf.default
+# echo "src-git helloworld https://github.com/fw876/helloworld.git^35c48947414783499fcb61884aedd36431f0af68" >> feeds.conf.default
