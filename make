@@ -61,7 +61,7 @@ script_repo="https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogi
 kernel_repo="https://github.com/ophub/kernel/tree/main/pub"
 version_branch="stable"
 auto_kernel="true"
-build_kernel=("5.15.41" "5.10.117")
+build_kernel=("5.15.41" "5.10.117" "5.4.195")
 # Set supported SoC
 build_openwrt=(
     "s922x" "s922x-n2" "s922x-reva" "a311d"
@@ -562,7 +562,7 @@ EOF
     echo "ANDROID_UBOOT='/lib/u-boot/${ANDROID_UBOOT}'" >>${op_release} 2>/dev/null
     echo "KERNEL_VERSION='${kernel}'" >>${op_release} 2>/dev/null
     echo "SOC='${soc}'" >>${op_release} 2>/dev/null
-    echo "K510='${K510}'" >>${op_release} 2>/dev/null
+    # echo "K510='${K510}'" >>${op_release} 2>/dev/null
 
     # Add firmware version information to the terminal page
     if [ -f etc/banner ]; then

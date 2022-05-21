@@ -48,10 +48,10 @@ unzip -q tmp/0db575e9a3718aec86f9c0ccef2df6eeb096f60d.zip -d tmp/
 mv tmp/luci-app-amlogic-0db575e9a3718aec86f9c0ccef2df6eeb096f60d/luci-app-amlogic feeds/luci/applications/
 rm -rf tmp/*0db575e9a3718aec86f9c0ccef2df6eeb096f60d*
 
-wget -q https://github.com/vernesong/OpenClash/archive/6b111db23ef5f967c7962d5f8ae8d9a7255506c6.zip -P tmp/
-unzip -q tmp/6b111db23ef5f967c7962d5f8ae8d9a7255506c6.zip -d tmp/
-mv tmp/OpenClash-6b111db23ef5f967c7962d5f8ae8d9a7255506c6/luci-app-openclash feeds/luci/applications/
-rm -rf tmp/*6b111db23ef5f967c7962d5f8ae8d9a7255506c6*
+wget -q https://github.com/vernesong/OpenClash/archive/6277c212650f8110e854a3ed9a9e4bde09cf6935.zip -P tmp/
+unzip -q tmp/6277c212650f8110e854a3ed9a9e4bde09cf6935.zip -d tmp/
+mv tmp/OpenClash-6277c212650f8110e854a3ed9a9e4bde09cf6935/luci-app-openclash feeds/luci/applications/
+rm -rf tmp/*6277c212650f8110e854a3ed9a9e4bde09cf6935*
 
 cp -r feeds/passwall/luci-app-passwall feeds/luci/applications/
 cp -r feeds/helloworld/luci-app-ssr-plus feeds/luci/applications/
