@@ -40,7 +40,7 @@ unzip -q tmp/2a5da72bb4df112abf4e42f249b7c732263d82fd.zip -d tmp/
 mv tmp/packages-77a3bd982aff20721cfd09faee0dd7b7daec8985/net/redsocks2 feeds/helloworld/
 mv tmp/packages-77a3bd982aff20721cfd09faee0dd7b7daec8985/net/vlmcsd feeds/packages/net/
 mv tmp/luci-2a5da72bb4df112abf4e42f249b7c732263d82fd/libs/luci-lib-fs feeds/luci/libs/
-mv tmp/luci-2a5da72bb4df112abf4e42f249b7c732263d82fd/applications/{luci-app-arpbind,luci-app-autoreboot,luci-app-diskman,luci-app-filetransfer,luci-app-openvpn-server,luci-app-vlmcsd,luci-app-webadmin} feeds/luci/applications/
+mv tmp/luci-2a5da72bb4df112abf4e42f249b7c732263d82fd/applications/{luci-app-arpbind,luci-app-autoreboot,luci-app-diskman,luci-app-filetransfer,luci-app-openvpn-server,luci-app-vlmcsd} feeds/luci/applications/
 rm -rf tmp/{*77a3bd982aff20721cfd09faee0dd7b7daec8985*,*2a5da72bb4df112abf4e42f249b7c732263d82fd*}
 
 wget -q https://github.com/ophub/luci-app-amlogic/archive/0db575e9a3718aec86f9c0ccef2df6eeb096f60d.zip -P tmp/
